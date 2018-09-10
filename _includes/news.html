@@ -1,0 +1,39 @@
+<div id="hirek" class="blog-area section pb-90 pt-120">
+    <div class="container">
+
+        <div class="row">
+            <div class="section-title section-title-dark text-center col-xs-12 mb-80">
+                <h1>Hírek</h1>
+            </div>
+        </div>
+
+        <div class="row">
+
+            {% for post in site.posts %}
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-item">
+                        {% if post.external %}
+                            <a href="{{post.link}}" target="_blank" class="image"><img src="{{post.thumb}}" alt=""></a>
+                            <div class="content" style="min-height:110px">
+                                <h4><a target="_blank" href="{{post.link}}">{{post.title}}</a></h4>
+                            </div>
+                            <div class="meta fix">
+                                <a target="_blank" href="{{post.link}}" class="date"><i class="zmdi zmdi-calendar-check"></i>{{post.date | date: "%Y-%m-%d %H:%M"}}</a>
+                            </div>
+                        {% else %}
+                            <a href="{{post.link}}" class="image"><img src="{{post.thumb}}" alt=""></a>
+                            <div class="content" style="min-height:110px">
+                                <h4><a href="{{post.link}}">{{post.title}}</a></h4>
+                            </div>
+                            <div class="meta fix">
+                                <a href="{{post.link}}" class="date"><i class="zmdi zmdi-calendar-check"></i>{{post.date | date: "%Y-%m-%d %H:%M"}}</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+</div>

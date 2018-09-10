@@ -1,0 +1,49 @@
+    <div class="header-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="navbar-header uk-logo">
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                            <i class="zmdi zmdi-menu menu-open"></i>
+                            <i class="zmdi zmdi-close menu-close"></i>
+                        </button>
+                        <a href="/" class="logo navbar-brand"><img src="/img/logo-whitebg.png" alt="logo"></a>
+                    </div>
+
+                    <div class="header-donation float-right">
+                        {% assign pages = site.pages | sort: 'order' %}
+                        {% for page in pages %}
+                            {% if page.menubtn %}
+                                {% if page.link %}
+                                    <a class="btn" href="{{page.link}}">{{page.menu}}</a>
+                                {% else %}
+                                    <a class="btn" href="{{page.url}}">{{page.menu}}</a>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+
+                    <div class="main-menu float-right collapse navbar-collapse" id="main-menu">
+                        <nav>
+                            <ul>
+                                {% assign pages = site.pages | sort: 'order' %}
+                                {% for page in pages %}
+                                    {% if page.menu %}
+                                        {% unless page.menubtn %}
+                                            {% if page.link %}
+                                                <li><a href="{{page.link}}" data-scroll>{{page.menu}}</a></li>
+                                            {% else %}
+                                                <li><a href="{{page.url}}">{{page.menu}}</a></li>
+                                            {% endif %}
+                                        {% endunless %}
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>

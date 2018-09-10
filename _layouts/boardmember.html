@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div id="blog-area" class="blog-area pt-200">
+    <div class="container">
+        <div class="row">
+			<div class="blog-details-wrapper col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12">
+				<div class="single-blog-details fix">
+					<div class="blog-details-content fix">
+                        <div class="section-title col-xs-12 text-center uk-nofloat">
+                            <h1>{{page.title}}</h1>
+                            <h3 class="pt-20">{{page.role}}</h3>
+                        </div>
+                        <div class="gallery-image text-center uk-avatarcontainer mb-60"><img src="{{ page.thumb }}" alt="" class="uk-avatarpic" /></div>
+                        <div class="{{page.class}}">
+                            {{content}}
+                        </div>
+					</div>
+
+					<div class="blog-details-footer fix">
+						<div class="blog-share float-right">
+							<p>megosztás:</p>
+							<a target="_blank" href="http://www.facebook.com/share.php?u=http://ujkezdet.hu{{page.url}}&amp;title={{page.name}}"><i class="zmdi zmdi-facebook"></i></a>
+							<a target="_blank" href="http://twitter.com/home?status={{page.name}}+http://ujkezdet.hu{{page.url}}"><i class="zmdi zmdi-twitter"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+</div>

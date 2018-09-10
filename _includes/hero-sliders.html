@@ -1,0 +1,18 @@
+
+        {% for hero in site.data.heroes %}
+            <div class="hs-item" style="background-image: url({{hero.background}})">
+                <div class="hs-item-wrapper fix">
+                    <div class="hs-image float-left uk-white">
+                        <img src="{{hero.image}}" alt="">
+                    </div>
+                    <div class="hs-content fix">
+                        <h2>{{hero.topic}}</h2>
+                        <h1>{{hero.title}} </h1>
+                        <p>{{hero.subtitle}}</p>
+                        {% for button in hero.buttons %}
+                        <a href="{{button.url}}" class="btn btn-xlg" style="margin-right:40px" target="{{button.target}}">{{button.caption}} <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}

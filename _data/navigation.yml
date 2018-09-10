@@ -1,0 +1,18 @@
+- title: 12 pont
+  url: /tartalom/12pont/
+- title: Köszöntő
+  url: /tartalom/koszonto/
+- title: Hitvallás
+  url: /tartalom/hitvallas/
+- title: Vezetőség
+  url: /#vezetoseg
+- title: Választási program
+  url: /tartalom/választási-program-2018
+- title: Hírek
+  url: /store.html
+  sublinks:
+    - title: Friss hírek, események
+      url: /#hirek
+    - title: separator
+    - title: Archívum
+      url: /tartalom/archivum
