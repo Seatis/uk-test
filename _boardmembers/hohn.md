@@ -1,6 +1,6 @@
 ---
 title: Hohn Krisztina
-role: alelnök
+role: alelnök, OGY képviselő
 layout: boardmember
 order: 5
 email: hohn.krisztina@ujkezdet.hu

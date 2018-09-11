@@ -1,35 +1,35 @@
-- background: /img/hero/1.jpg
-  image: /img/hero/3Nagygyules.jpg
-  topic: >-
-    Június 9-én, 10 órai kezdettel Gödöllőn, az Erzsébet Királyné Hotel
-    Dísztermében
-  title: III. Nagygyűlés2
-  subtitle: 'Szeretettel várjuk! Érkezés 9:30-tól. A részvétel regisztrációhoz kötött.'
-  buttons:
-    - url: >-
-        https://docs.google.com/forms/d/e/1FAIpQLSeMhF6oEAHJULunIDJJ1K1Y7qYdFXKNy7YcZJuW-ILHw0xgXg/viewform
-      caption: Kattintson ide a regisztrációhoz!
-      target: _blank
-- background: /img/hero/3-bg.jpg
-  image: /uploads/montage.jpg
-  topic: Képviselőjelöltjeink
-  title: Az Új Kezdet és az LMP közös jelöltjeinek listája
-  subtitle: >-
-    Tizenegy jelölt, tizenegy kiváló ember - kérjük támogassanak minket!
-    Köszönjük.
-  buttons:
-    - url: 'http://ujkezdet.hu/tartalom/jel%C3%B6ltjeink/'
-      caption: Jelöltjeink
-      target: _self
-- background: /img/hero/3-bg.jpg
-  image: /img/hero/DSC_6851.JPG
-  topic: Választási Program 2018
-  title: Elkészült
-  subtitle: Az Új Kezdet és az LMP közös választási programja elérhető honlapunkon
-  buttons:
-    - url: 'http://ujkezdet.hu/tartalom/v%C3%A1laszt%C3%A1si-program-2018'
-      caption: A 2018-as választási program
-      target: _self
+# - background: /img/hero/1.jpg
+#   image: /img/hero/3Nagygyules.jpg
+#   topic: >-
+#     Június 9-én, 10 órai kezdettel Gödöllőn, az Erzsébet Királyné Hotel
+#     Dísztermében
+#   title: III. Nagygyűlés
+#   subtitle: 'Szeretettel várjuk! Érkezés 9:30-tól. A részvétel regisztrációhoz kötött.'
+#   buttons:
+#     - url: >-
+#         https://docs.google.com/forms/d/e/1FAIpQLSeMhF6oEAHJULunIDJJ1K1Y7qYdFXKNy7YcZJuW-ILHw0xgXg/viewform
+#       caption: Kattintson ide a regisztrációhoz!
+#       target: _blank
+# - background: /img/hero/3-bg.jpg
+#   image: /uploads/montage.jpg
+#   topic: Képviselőjelöltjeink
+#   title: Az Új Kezdet és az LMP közös jelöltjeinek listája
+#   subtitle: >-
+#     Tizenegy jelölt, tizenegy kiváló ember - kérjük támogassanak minket!
+#     Köszönjük.
+#   buttons:
+#     - url: 'http://ujkezdet.hu/tartalom/jel%C3%B6ltjeink/'
+#       caption: Jelöltjeink
+#       target: _self
+# - background: /img/hero/3-bg.jpg
+#   image: /img/hero/DSC_6851.JPG
+#   topic: Választási Program 2018
+#   title: Elkészült
+#   subtitle: Az Új Kezdet és az LMP közös választási programja elérhető honlapunkon
+#   buttons:
+#     - url: 'http://ujkezdet.hu/tartalom/v%C3%A1laszt%C3%A1si-program-2018'
+#       caption: A 2018-as választási program
+#       target: _self
 - background: /img/hero/1.jpg
   image: /img/hero/1.jpg
   topic: Új Kezdet

@@ -1,7 +1,7 @@
 ---
 title: III. Nagygyűlés
 date: 2018-05-18 00:00:00
-thumb: /img/news/201805181200.jpg
+thumb: /img/news/201805181200_2.jpg
 link: 'http://ujkezdet.hu/cikk/2018-05-18-iii--nagygy%C5%B1l%C3%A9s/'
 ---
 

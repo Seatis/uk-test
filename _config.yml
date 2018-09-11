@@ -23,7 +23,7 @@ baseurl:
 url:
 twitter_username: uj_kezdet
 facebook_username: ujkezdet.hu
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions:
   - smart

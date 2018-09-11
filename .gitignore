@@ -3,3 +3,8 @@ _site
 .sass-cache
 .jekyll-metadata
 .DS_Store
+Gemfile.lock
+temp
+aero-debug.log
+aero-deploy.tar.gz
+

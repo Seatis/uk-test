@@ -6,7 +6,7 @@ link: "/tartalom/12pont/"
 class: uk-quote
 ---
 
-##Mit kíván a Magyar Nemzet 2017-ben?
+##Mit kíván a Magyar Nemzet?
 
 Legyen béke, szabadság és egyetértés
 

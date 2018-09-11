@@ -1,0 +1,16 @@
+# Aerobatic website manifest
+# id: bf34ee70-3872-4c61-932a-494ad02467bc
+id: 48a08ff8-1bf6-41d7-abae-969049325c91
+plugins:
+  - name: password-protect
+    options:
+      password: $BASIC_AUTH_PASSWORD
+      loginPage: login.html
+      maxFailures: 5
+      failureWindow: 600
+      lockoutDuration: 600
+      ignorePatterns:
+        - '/css/*.css'
+        - '/js/*.js'
+        - '/img/*.jpg'
+  - name: webpage

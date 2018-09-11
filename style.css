@@ -2618,12 +2618,33 @@ div.news-container {
   padding-left: 100px;
 }
 
+@media only screen and (max-width: 767px) {
+  div.news-container {
+    grid-template-rows: 1fr 25px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  div.news-container {
+    grid-template-rows: 1fr 30px;
+    padding-left: 0;
+  }
+}
+
 div.img-container {
   margin: 5px;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: span 2;
+}
+
+@media only screen and (max-width: 1200px) {
+  div.img-container {
+    display: flex;
+    align-items: center;
+  }
 }
 
 div.news-container img {
@@ -2635,11 +2656,37 @@ div.news-container div.title {
   padding: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  div.news-container div.title {
+    line-height: 140%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  div.news-container div.title {
+    line-height: 160%;
+  }
+}
+
 div.news-container div.title span {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
   color: #5e5e5e;
 }
+
+@media only screen and (max-width: 767px) {
+  div.news-container div.title span {
+    font-size: 1em;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  div.news-container div.title span {
+    font-size: 1.15em;
+  }
+}
+
 
 div.news-container div.short-title {
   padding-left: 10px;
@@ -2661,6 +2708,18 @@ div.news-container div.date span {
   color: #b8b0b0;
 }
 
+@media only screen and (max-width: 767px) {
+  div.news-container div.date span {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  div.news-container div.date span {
+    font-size: 1em;
+  }
+}
+
 .col-centered{
   float: none;
   margin: 0 auto;
@@ -2670,12 +2729,34 @@ div.news-container div.date span {
   padding-left: 100px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .archive-month {
+    padding-left: 0;
+  }
+}
+
 .archive-month h4 {
   font-family: 'Montserrat', sans-serif;
   color: #9b9a9a;
   font-weight: 500;
   margin-top: 40px;
   font-size: 1.5em;
+}
+
+@media only screen and (max-width: 767px) {
+  .archive-month h4 {
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .archive-month h4 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-top: 40px;
+  }
 }
 
 .archive-month h4.first-title {

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+      <link rel="stylesheet" href="login.css">
+    </head>
+    <body class="body">
+      <form class="login" method="POST">
+        <h1 class="login-title">UK-tesztoldal - Belépés</h1>
+        <div class="fail" style="display: none;" id="failMessage">Helytelen jelszó</div>
+        <!-- <input type="text" class="login-input" placeholder="Email Adress" autofocus> -->
+        <input type="password" name="aerobatic-password" class="login-input" placeholder="Jelszó">
+        <input type="submit" value="Belépés" class="login-button">
+      </form>
+      <script>
+        (function() {
+          if (/fail=1/.test(location.search)) {
+            document.getElementById('failMessage').style.display = 'block';
+          }
+        })();
+      </script>
+    </body>
+</html>

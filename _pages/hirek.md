@@ -1,6 +1,6 @@
 ---
 title: hírek
-menu: hírek
+# menu: hírek
 link: "/#hirek"
 order: 50
 ---
