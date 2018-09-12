@@ -14,6 +14,10 @@ collections:
     title: Posts
     output: true
     permalink: "/cikk/:path/"
+  postsarch:
+    title: Postsarchive
+    output: true
+    permalink: "/cikk/:path/"
   uploads:
     title: Uploads
     output: true
